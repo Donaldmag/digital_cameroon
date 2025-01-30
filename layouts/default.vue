@@ -2,6 +2,7 @@
     <div>
       <Header/>
         <slot/>
+        <CommonCustomCursor/>
         <CommonScrollTop/>
         <!-- <CommonDarklightSwitcher/> -->
         <div class="bg-noise"></div>

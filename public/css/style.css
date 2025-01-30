@@ -29373,3 +29373,10 @@ body.servi-ce-details .rts-footer-two-area {
   max-width: 224px;
 }
 /* En footer style */
+
+/* Header style */
+.sub-menu{
+  display: flex;
+  flex-direction: column;
+}
+/* End of header style */
