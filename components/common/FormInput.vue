@@ -2,7 +2,7 @@
     <div class="flex flex-col">
         <label :for="id">{{ labelText }}*</label>
 
-        <input v-if="!selectionList" 
+        <input v-if="!selectionList && !isTextarea" 
         :id="id" 
         :type="inputType" 
         :placeholder="placeholderText" 
@@ -11,7 +11,7 @@
         >     
 
         <!-- Is called inside a div with 'text-area' class -->
-        <textarea v-if="isTextarea" 
+        <textarea v-else-if="isTextarea" 
         :id="id" 
         :rows="rowNumber"
         :cols="colNumber"
@@ -19,7 +19,7 @@
         :required="requiredStatus"
         />
 
-        <select v-if="selectionList" class="form-select" :required="requiredStatus">
+        <select v-else-if="selectionList.length > 0" class="form-select" :required="requiredStatus">
             <option disabled selected>{{ placeholderText }}</option>
             <option v-for="(options, index) in selectionList" :options="options" :key="options.id"
                 :value="options.value"
@@ -39,7 +39,7 @@ const props = defineProps({
     rowNumber : { type: Number, required: false, default: 10},
     colNumber : { type: Number, required: false, default: 30},
     isTextarea : { type: Boolean, required:false, default: false},
-    selectionList : { type: Array },
+    selectionList : { type: Array, required: false, default: null },
 });
 </script>
 
