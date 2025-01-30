@@ -83,56 +83,32 @@ const swiperOptions = {
         },
 
         1280: {
-        slidesPerView: 4.2,
-        slidesPerGroup: 2,
-        spaceBetween: 25,
+        slidesPerView: 2.9,
+        slidesPerGroup: 2.9,
+        spaceBetween: 30,
         },
 
         1024: {
-        slidesPerView: 6,
-        slidesPerGroup: 6,
-        spaceBetween: 25,
+        slidesPerView: 2.3,
+        slidesPerGroup: 2.3,
+        spaceBetween: 30,
         },
 
         768: {
-        slidesPerView: 5,
-        slidesPerGroup: 5,
+        slidesPerView: 2.1,
+        slidesPerGroup: 2.1,
+        spaceBetween: 30,
+        },
+
+        712: {
+        slidesPerView: 2.3,
+        slidesPerGroup: 2.3,
         spaceBetween: 20,
         },
 
-        640: {
-        slidesPerView: 5,
-        slidesPerGroup: 5,
-        spaceBetween: 10,
-        },
-
-        480: {
-        slidesPerView: 4.5,
-        slidesPerGroup: 4.5,
-        spaceBetween: 10,
-        },
-
-        475: {
-        slidesPerView: 4,
-        slidesPerGroup: 4,
-        spaceBetween: 5,
-        },
-
-        425: {
-        slidesPerView: 4,
-        slidesPerGroup: 4,
-        spaceBetween: 5,
-        },
-
-        360: {
-        slidesPerView: 4,
-        slidesPerGroup: 4,
-        spaceBetween: 6,
-        },
-
         320: {
-        slidesPerView: 4,
-        slidesPerGroup: 4,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 2,
         },
     }

@@ -3,6 +3,7 @@
       <Header/>
         <slot/>
         <!-- <CommonScrollTop @click="scrollToTop()"/> -->
+        <!-- <CommonDarklightSwitcher/> -->
       <Footer/>
     </div>
 </template>
