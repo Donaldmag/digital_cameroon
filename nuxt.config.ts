@@ -6,8 +6,12 @@ export default defineNuxtConfig({
   postcss: {
     plugins: {
       autoprefixer: {},
+      
     },
   },
+  plugins: [
+    // { src: '~/plugins/gsap.js', mode: 'client' }, 
+  ],
   vue: {
     propsDestructure: true
   },
@@ -51,7 +55,7 @@ export default defineNuxtConfig({
         { src: '/js/plugins/imagesloaded.pkgd.min.js', type: 'text/javascript' }, 
          
         { src: '/js/plugins/smoothscroll-varticle.js', type: 'text/javascript' },  
-        // { src: '/js/vendor/gsap.js', type: 'text/javascript' },  
+        { src: '/js/vendor/gsap.js', type: 'text/javascript' },  
         { src: '/js/plugins/scrolltiger.js', type: 'text/javascript' },  
         { src: '/js/plugins/scrolltoplugin.js', type: 'text/javascript' },  
         { src: '/js/plugins/splittext.js', type: 'text/javascript' },  

@@ -1,5 +1,5 @@
 {
-  "name": "Digital Cameroon",
+  "name": "digital_cameroon",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.40"
+    "postcss": "^8.4.40",
+    "gsap": "^3.12.5"
   }
 }

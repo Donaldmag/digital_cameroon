@@ -47,7 +47,7 @@
     return $(selector).length > 0;
   };
 
-  // gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);
+  gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);
 
   var rtsJs = {
     m: function (e) {
@@ -94,7 +94,7 @@
       rtsJs.preloaderWithBannerActivation();
       rtsJs.isotopeMasonry();
       rtsJs.stickySidebar();
-      // rtsJs.backToTopInit();
+      rtsJs.backToTopInit();
       rtsJs.stickyHeader();
       rtsJs.countDown();
       rtsJs.rollingText();

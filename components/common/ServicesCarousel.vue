@@ -54,13 +54,13 @@ function onSwiper(swiper) {
     ToSwipe.value = swiper
 }
 
-function slideNext() {
-    ToSwipe.value.slideNext()
-}
+// function slideNext() {
+//     ToSwipe.value.slideNext()
+// }
 
-function slidePrev() {
-    ToSwipe.value.slidePrev()
-}
+// function slidePrev() {
+//     ToSwipe.value.slidePrev()
+// }
 
 const modules = [Scrollbar];
 

@@ -2,14 +2,21 @@
     <div>
       <Header/>
         <slot/>
-        <!-- <CommonScrollTop @click="scrollToTop()"/> -->
+        <CommonScrollTop/>
         <!-- <CommonDarklightSwitcher/> -->
       <Footer/>
     </div>
 </template>
 
 <script setup>
-const scrollToTop = () =>{
-  window.scrollTo({top: 0, behavior: 'smooth'});
-}
+import { onMounted } from 'vue';
+
+// Dynamically importing script file from /js/main
+onMounted(() => {
+  const script = document.createElement('script');
+  script.src = '/js/main.js';
+  script.async = true;
+  document.body.appendChild(script);
+});
+
 </script>
