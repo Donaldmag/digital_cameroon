@@ -29350,9 +29350,26 @@ body.servi-ce-details .rts-footer-two-area {
 }
 /*# sourceMappingURL=../maps/style.css.map */
 
+
+/* ------------------------ */
+/* ------------------------ */
+/* ------------------------ */
 /* CUSTOM CSS CLASSES */
 
 /* hero section  */
 .hero-paragraph-text{
     max-width: 420px;
 }
+/* En hero section style */
+
+/* Footer style */
+.max-320{
+  max-width: 360px;
+}
+.max-400{
+  max-width: 400px;
+}
+.max-224{
+  max-width: 224px;
+}
+/* En footer style */

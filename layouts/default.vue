@@ -4,6 +4,7 @@
         <slot/>
         <CommonScrollTop/>
         <!-- <CommonDarklightSwitcher/> -->
+        <div class="bg-noise"></div>
       <Footer/>
     </div>
 </template>
