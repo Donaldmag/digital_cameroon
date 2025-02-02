@@ -10,6 +10,7 @@
             <i v-if="buttonStyle==='styleThree'" class="fa-solid fa-arrow-up-right"></i>
             <i v-if="buttonStyle==='styleFour'" class="fa-regular fa-plus"></i>
             <i v-if="buttonStyle==='styleFive'" class="fa-light fa-arrow-right"></i>
+            <i v-if="buttonStyle==='styleSix'" class="fa-light fa-arrow-right"></i>
         </button>
     </div>
 </template>
@@ -41,5 +42,6 @@ const buttonTypes = {
     styleThree:'learn-more-btn white btn-md',
     styleFour:'plus-btn btn-md',
     styleFive:'rts-btn btn-white',
+    styleSix:'learn-more-btn text-dark btn-md',
 }
 </script>
