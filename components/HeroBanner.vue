@@ -4,6 +4,8 @@
             
             <CommonCircularSpin 
                 :spinning-text="' Project SHowcase • Project SHowcase •'"
+                :variant-one="true"
+                :link="'contact'"
             />
             <div class="container">
                 <div class="row  ptb--200 ptb_sm--150">

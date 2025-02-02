@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <!-- <div> -->
         <div class="top-center-image rts-scroll-down-circle-wrapper-3">
-            <a href="portfolio-one.html" class="speen-shape scroll-down-circle-3">
+            <a href="javascript:void(0)" @click="navigateTo(`/${link}`)" class="speen-shape scroll-down-circle-3">
                 <svg class="uni-circle-text-path uk-text-secondary uni-animation-spin" viewBox="0 0 100 100"
                     width="180" height="180">
                     <defs>
@@ -15,12 +15,15 @@
                 <i class="fa-solid fa-star-sharp"></i>
             </a>
         </div>
-    </div>
+    <!-- </div> -->
 </template>
 
 <script setup>
 const props = defineProps({
-    spinningText: {type: String, required: false},
+    spinningText: { type: String, required: false },
+    link : { type: String, required : false},
+    // variantOne : { type: Boolean, required:true, default: false},
+    // variantTwo : { type: Boolean, required:true, default: false},
 });
 </script>
 
