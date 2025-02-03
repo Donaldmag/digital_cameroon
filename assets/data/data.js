@@ -122,3 +122,13 @@ export const achievementsList = [
     icon: "/images/working-process/icon/04.png"
   },
 ];
+
+export const testimonialsData = [
+  {
+    id:1, 
+    author:'Franklin Epape', 
+    authorTitle:'ADN Canada', 
+    desc:"Our 2024 partnership with DigitalCameroon has redefined diaspora engagement in Africa's digital transformation creating a blueprint for diaspora-led change.", 
+    imgUrl:'/images/about/04.jpg'
+  }
+];
