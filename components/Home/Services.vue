@@ -46,3 +46,10 @@ const props = defineProps({
 });
 console.log('props is', props.servicesList);
 </script>
+
+<style scoped>
+.service-area-one-main-wrapper .single-item-service-one a{
+    border-top: none;
+    border-bottom: solid 1px #e8e8e8;
+}
+</style>

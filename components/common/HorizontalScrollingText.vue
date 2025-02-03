@@ -2,7 +2,7 @@
     <div>
          <!-- <div id="smooth-wrapper">
             <div id="smooth-content"> -->
-                <div class="rts-about-area-1 rts-section-gapBottom">
+                <div class="rts-about-area-1">
                     <div class="container-full">
                         <!-- <div class="row">
                             <div class="col-lg-12">

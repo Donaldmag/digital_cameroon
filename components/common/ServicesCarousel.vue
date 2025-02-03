@@ -9,7 +9,7 @@
         :speed="swiperOptions.speed" 
         @swiper="onSwiper"
         >
-            <swiper-slide v-for="(service, index) in 12" :service="service" class="swiper-slide">
+            <swiper-slide v-for="(industry, index) in carousselData" :industry="industry" :key="index" class="swiper-slide">
                 <div class="single-service-h2">
                     <div class="icon">
                         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,13 +28,13 @@
                         </svg>
                     </div>
                     <div class="inner-content">
-                        <a href="#">
-                            <h5 class="title">Digital SEO</h5>
+                        <a href="javascript:void(0)">
+                            <h5 class="title">{{ industry.title }}</h5>
                         </a>
                         <p class="disc">
-                            There are many variations of passages of lorem Ipsum available but to the majority have suffered but the into
+                            {{ industry.desc }}
                         </p>
-                        <a href="#" class="btn-arrow-right">Get Started <i class="fa-regular fa-arrow-right"></i></a>
+                        <!-- <a href="#" class="btn-arrow-right">More info <i class="fa-regular fa-arrow-right"></i></a> -->
                     </div>
                 </div>
             </swiper-slide>           
@@ -53,6 +53,10 @@ const ToSwipe = ref(0)
 function onSwiper(swiper) {
     ToSwipe.value = swiper
 }
+
+const props = defineProps({
+    carousselData: { type: Array, required: false },
+});
 
 // function slideNext() {
 //     ToSwipe.value.slideNext()
@@ -116,5 +120,7 @@ const swiperOptions = {
 </script>
 
 <style scoped>
-
+.single-service-h2{
+    min-height: 420px;
+}
 </style>

@@ -5,18 +5,19 @@
                 :background-image-url="'/images/banner/27.jpg'"
                 :hero-heading-text="'Test'"
                 :hero-link="'contact'"
-                
             />
-
             <HomeLoadingVideo :video-url="'/images/video/02.mp4'"/>
             <HomeAbout/>
             <CommonHorizontalScrollingText
-            :img-url="'/images/about/01.jpg'"
+                :img-url="'/images/about/01.jpg'"
             />
-            <HomeServices :service-list="servicesList"/>
+            <HomeServices :services-list="servicesList"/>
+            <HomeIndustrialFocus :caroussel-data="carousselData" :heading="'Industry Focus Areas'" />
+            <HomeProjects :projects-data="projectsData"/>
+            <HomeKeyAchievement :tag="'Achievements'" :heading="'Key Achievements'" :achievements-list="achievementsList"/>
             <HomePartnersLogo 
-            :logo-icons="logoIcons"
-            :section-heading-text="'WE WORKED WITH GLOBAL LARGEST BRANDS'"
+                :logo-icons="logoIcons"
+                :section-heading-text="'WE WORKED WITH GLOBAL LARGEST BRANDS'"
             />
         
         </div>
@@ -24,7 +25,7 @@
 </template>
 
 <script setup>
-import { logoIcons, servicesList } from '/assets/data/data';
+import { logoIcons, servicesList, carousselData, projectsData, achievementsList } from '/assets/data/data';
 </script>
 
 <style scoped>
