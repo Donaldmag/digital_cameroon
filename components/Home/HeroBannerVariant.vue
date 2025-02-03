@@ -15,7 +15,7 @@
                     <div class="col-lg-12">
                         <div class="banner-inner-7">
                             <h1 class="title text-center rts_hero__title">
-                                A leading <span>think tank </span> and <br><span> innovation laboratory</span><br> dedicated to the <span>digital <br>transformation</span> of Cameroon.
+                                A leading <span>think tank </span> and <br><span> innovation laboratory</span><br> dedicated to the <span>digital transformation</span> of Cameroon.
                             </h1>
 
                             <div class="top-center-image rts-scroll-down-circle-wrapper-5">

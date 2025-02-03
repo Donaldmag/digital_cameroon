@@ -17,12 +17,13 @@
                 </div>
             </div>
             <div class="container mt--100">
-                <div v-for="(data, index) in testimonialsData" :data="data" :key="index" 
+                <div 
                     class="row g-5 mt--80 mt_sm--30">
                     <div class="col-lg-8 pr--100 pr_md--50 pr_sm--20">
                         <div class="swiper-testimonails-style-one-main-wrapper">
                             <div class="swiper mySwiper-testimonial-1">
-                                <div class="swiper-wrapper">
+                                
+                                <div class="swiper-wrapper"  v-for="(data, index) in testimonialsData" :data="data" :key="index">
                                     <div class="swiper-slide">
                                         <div class="single-testimonials-main-wrapper">
                                             <div class="body">
@@ -39,16 +40,17 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <!-- <div class="col-lg-4">
                         <div class="after-effect-testi-right-img">
                             <div class="thumbnail-clients-img rts-reveal-two bg--dark">
                                 <img class="rts-reveal-image-two" :src="data.imgUrl" alt="">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

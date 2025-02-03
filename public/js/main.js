@@ -449,502 +449,502 @@
           },
         });
       });
-      $(document).ready(function () {
-        var swiper = new Swiper(".mySwiper_service-h2", {
-          spaceBetween: 24,
-          slidesPerView: 4.5,
-          centeredSlides: true,
-          roundLengths: true,
-          loop: true,
-          loopAdditionalSlides: 30,
-          mousewheel: {
-            invert: true,
-            releaseOnEdges: true
-          },
-          breakpoints: {
-            1700: {
-              slidesPerView: 4,
-              spaceBetween: 30,
-            },
-            1500: {
-              slidesPerView: 3,
-              spaceBetween: 30,
-            },
-            1024: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-            },
-            768: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-            },
-            640: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            320: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            }
-          }
-        });
-      });
-      $(document).ready(function () {
-        var swiper = new Swiper(".mySwiper_portfolio-3", {
-          spaceBetween: 30,
-          slidesPerView: 5,
-          centeredSlides: true,
-          roundLengths: true,
-          loop: true,
-          loopAdditionalSlides: 30,
-          mousewheel: {
-            invert: true,
-            releaseOnEdges: true
-          },
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-          breakpoints: {
-            5000: {
-              slidesPerView: 12,
-              spaceBetween: 30,
-            },
-            3200: {
-              slidesPerView: 7,
-              spaceBetween: 30,
-            },
-            2500: {
-              slidesPerView: 6,
-              spaceBetween: 30,
-            },
-            1920: {
-              slidesPerView: 5,
-              spaceBetween: 30,
-            },
-            1700: {
-              slidesPerView: 4,
-              spaceBetween: 30,
-            },
-            1500: {
-              slidesPerView: 4,
-              spaceBetween: 30,
-            },
-            1024: {
-              slidesPerView: 3,
-              spaceBetween: 30,
-            },
-            768: {
-              slidesPerView: 3,
-              spaceBetween: 30,
-            },
-            640: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            320: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            }
-          }
-        });
-      });
-      $(document).ready(function () {
-        var swiper = new Swiper(".mySwiper_portfolio-6", {
-          effect: 'slide',
-          loop: true,
-          speed: 1500,
-          mousewheel: true,
+      // $(document).ready(function () {
+      //   var swiper = new Swiper(".mySwiper_service-h2", {
+      //     spaceBetween: 24,
+      //     slidesPerView: 4.5,
+      //     centeredSlides: true,
+      //     roundLengths: true,
+      //     loop: true,
+      //     loopAdditionalSlides: 30,
+      //     mousewheel: {
+      //       invert: true,
+      //       releaseOnEdges: true
+      //     },
+      //     breakpoints: {
+      //       1700: {
+      //         slidesPerView: 4,
+      //         spaceBetween: 30,
+      //       },
+      //       1500: {
+      //         slidesPerView: 3,
+      //         spaceBetween: 30,
+      //       },
+      //       1024: {
+      //         slidesPerView: 2,
+      //         spaceBetween: 30,
+      //       },
+      //       768: {
+      //         slidesPerView: 2,
+      //         spaceBetween: 30,
+      //       },
+      //       640: {
+      //         slidesPerView: 1,
+      //         spaceBetween: 20,
+      //       },
+      //       320: {
+      //         slidesPerView: 1,
+      //         spaceBetween: 20,
+      //       }
+      //     }
+      //   });
+      // });
+      // $(document).ready(function () {
+      //   var swiper = new Swiper(".mySwiper_portfolio-3", {
+      //     spaceBetween: 30,
+      //     slidesPerView: 5,
+      //     centeredSlides: true,
+      //     roundLengths: true,
+      //     loop: true,
+      //     loopAdditionalSlides: 30,
+      //     mousewheel: {
+      //       invert: true,
+      //       releaseOnEdges: true
+      //     },
+      //     pagination: {
+      //       el: ".swiper-pagination",
+      //       clickable: true,
+      //     },
+      //     breakpoints: {
+      //       5000: {
+      //         slidesPerView: 12,
+      //         spaceBetween: 30,
+      //       },
+      //       3200: {
+      //         slidesPerView: 7,
+      //         spaceBetween: 30,
+      //       },
+      //       2500: {
+      //         slidesPerView: 6,
+      //         spaceBetween: 30,
+      //       },
+      //       1920: {
+      //         slidesPerView: 5,
+      //         spaceBetween: 30,
+      //       },
+      //       1700: {
+      //         slidesPerView: 4,
+      //         spaceBetween: 30,
+      //       },
+      //       1500: {
+      //         slidesPerView: 4,
+      //         spaceBetween: 30,
+      //       },
+      //       1024: {
+      //         slidesPerView: 3,
+      //         spaceBetween: 30,
+      //       },
+      //       768: {
+      //         slidesPerView: 3,
+      //         spaceBetween: 30,
+      //       },
+      //       640: {
+      //         slidesPerView: 1,
+      //         spaceBetween: 20,
+      //       },
+      //       320: {
+      //         slidesPerView: 1,
+      //         spaceBetween: 20,
+      //       }
+      //     }
+      //   });
+      // });
+      // $(document).ready(function () {
+      //   var swiper = new Swiper(".mySwiper_portfolio-6", {
+      //     effect: 'slide',
+      //     loop: true,
+      //     speed: 1500,
+      //     mousewheel: true,
 
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-        });
-      });
-      $(document).ready(function () {
-        var swiper = new Swiper(".mySwiper_portfolio-5", {
-          spaceBetween: 60,
-          slidesPerView: 2.5,
-          centeredSlides: true,
-          centeredSlidesBounds: true,
-          roundLengths: true,
-          parallax: true,
-          effect: "creative",
-          loop: true,
-          loopAdditionalSlides: 30,
-          speed: 1500,
-          autoplay: false,
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-          mousewheelControl: true,
-          watchSlidesProgress: true,
-          mousewheel: {
-            releaseOnEdges: true,
-          },
-          mousewheel: {
-            eventsTarged: ".swiper-slide",
-            sensitivity: 1
-          },
-          keyboard: {
-            enabled: true,
-            onlyInViewport: true
-          },
-          breakpoints: {
-            1700: {
-              slidesPerView: 2.5,
-              spaceBetween: 30,
-            },
-            1500: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-            },
-            1024: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-            },
-            768: {
-              slidesPerView: 1,
-              spaceBetween: 30,
-            },
-            640: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            320: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            }
-          }
-        });
-      });
-      $(document).ready(function () {
-        var swiper = new Swiper(".mySwiper_portfolio-5-scale-none", {
-          spaceBetween: 0,
-          slidesPerView: 2.5,
-          centeredSlides: true,
-          centeredSlidesBounds: true,
-          roundLengths: true,
-          parallax: true,
-          effect: "creative",
-          loop: true,
-          loopAdditionalSlides: 30,
-          speed: 300,
-          autoplay: false,
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-          mousewheelControl: true,
-          watchSlidesProgress: true,
-          mousewheel: {
-            releaseOnEdges: true,
-          },
-          mousewheel: {
-            eventsTarged: ".swiper-slide",
-            sensitivity: 1
-          },
-          keyboard: {
-            enabled: true,
-            onlyInViewport: true
-          },
-          breakpoints: {
-            1700: {
-              slidesPerView: 2.5,
-              spaceBetween: 30,
-            },
-            1500: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-            },
-            1024: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-            },
-            768: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-            },
-            640: {
-              slidesPerView: 2,
-              spaceBetween: 20,
-            },
-            440: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            320: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            }
-          }
-        });
-      });
-      $(document).ready(function () {
-        var swiper = new Swiper(".mySwiper-7-varticle", {
-          direction: "vertical",
-          parallax: true,
-          // watchSlidesProgress: true,
-          effect: "creative",
-          spaceBetween: 0,
-          slidesPerView: 1.2,
-          height: 770,
-          centeredSlides: true,
-          // pagination: {
-          //   el: ".swiper-pagination",
-          //   clickable: true,
-          // },
-          mousewheel: true,
-          speed: 1000,
-          loop: true,
-
-
-          breakpoints: {
-            1500: {
-              slidesPerView: 1.2,
-              centeredSlides: true,
-            },
-
-            768: {
-              slidesPerView: 1,
-              direction: "horizontal",
-              centeredSlides: true,
-            },
-            450: {
-              direction: "horizontal",
-              spaceBetween: 100,
-
-            }
-          }
-
-        });
-      });
-      $(document).ready(function () {
-        var swiper = new Swiper(".mySwiper-7-varticle2", {
-          direction: "vertical",
-          parallax: true,
-          // watchSlidesProgress: true,
-          effect: "creative",
-          spaceBetween: 0,
-          slidesPerView: 1,
-          centeredSlides: true,
-          // pagination: {
-          //   el: ".swiper-pagination",
-          //   clickable: true,
-          // },
-          mousewheel: true,
-          speed: 1000,
-          loop: true,
+      //     navigation: {
+      //       nextEl: ".swiper-button-next",
+      //       prevEl: ".swiper-button-prev",
+      //     },
+      //   });
+      // });
+      // $(document).ready(function () {
+      //   var swiper = new Swiper(".mySwiper_portfolio-5", {
+      //     spaceBetween: 60,
+      //     slidesPerView: 2.5,
+      //     centeredSlides: true,
+      //     centeredSlidesBounds: true,
+      //     roundLengths: true,
+      //     parallax: true,
+      //     effect: "creative",
+      //     loop: true,
+      //     loopAdditionalSlides: 30,
+      //     speed: 1500,
+      //     autoplay: false,
+      //     navigation: {
+      //       nextEl: ".swiper-button-next",
+      //       prevEl: ".swiper-button-prev",
+      //     },
+      //     mousewheelControl: true,
+      //     watchSlidesProgress: true,
+      //     mousewheel: {
+      //       releaseOnEdges: true,
+      //     },
+      //     mousewheel: {
+      //       eventsTarged: ".swiper-slide",
+      //       sensitivity: 1
+      //     },
+      //     keyboard: {
+      //       enabled: true,
+      //       onlyInViewport: true
+      //     },
+      //     breakpoints: {
+      //       1700: {
+      //         slidesPerView: 2.5,
+      //         spaceBetween: 30,
+      //       },
+      //       1500: {
+      //         slidesPerView: 2,
+      //         spaceBetween: 30,
+      //       },
+      //       1024: {
+      //         slidesPerView: 2,
+      //         spaceBetween: 30,
+      //       },
+      //       768: {
+      //         slidesPerView: 1,
+      //         spaceBetween: 30,
+      //       },
+      //       640: {
+      //         slidesPerView: 1,
+      //         spaceBetween: 20,
+      //       },
+      //       320: {
+      //         slidesPerView: 1,
+      //         spaceBetween: 20,
+      //       }
+      //     }
+      //   });
+      // });
+      // $(document).ready(function () {
+      //   var swiper = new Swiper(".mySwiper_portfolio-5-scale-none", {
+      //     spaceBetween: 0,
+      //     slidesPerView: 2.5,
+      //     centeredSlides: true,
+      //     centeredSlidesBounds: true,
+      //     roundLengths: true,
+      //     parallax: true,
+      //     effect: "creative",
+      //     loop: true,
+      //     loopAdditionalSlides: 30,
+      //     speed: 300,
+      //     autoplay: false,
+      //     navigation: {
+      //       nextEl: ".swiper-button-next",
+      //       prevEl: ".swiper-button-prev",
+      //     },
+      //     mousewheelControl: true,
+      //     watchSlidesProgress: true,
+      //     mousewheel: {
+      //       releaseOnEdges: true,
+      //     },
+      //     mousewheel: {
+      //       eventsTarged: ".swiper-slide",
+      //       sensitivity: 1
+      //     },
+      //     keyboard: {
+      //       enabled: true,
+      //       onlyInViewport: true
+      //     },
+      //     breakpoints: {
+      //       1700: {
+      //         slidesPerView: 2.5,
+      //         spaceBetween: 30,
+      //       },
+      //       1500: {
+      //         slidesPerView: 2,
+      //         spaceBetween: 30,
+      //       },
+      //       1024: {
+      //         slidesPerView: 2,
+      //         spaceBetween: 30,
+      //       },
+      //       768: {
+      //         slidesPerView: 2,
+      //         spaceBetween: 30,
+      //       },
+      //       640: {
+      //         slidesPerView: 2,
+      //         spaceBetween: 20,
+      //       },
+      //       440: {
+      //         slidesPerView: 1,
+      //         spaceBetween: 20,
+      //       },
+      //       320: {
+      //         slidesPerView: 1,
+      //         spaceBetween: 20,
+      //       }
+      //     }
+      //   });
+      // });
+      // $(document).ready(function () {
+      //   var swiper = new Swiper(".mySwiper-7-varticle", {
+      //     direction: "vertical",
+      //     parallax: true,
+      //     // watchSlidesProgress: true,
+      //     effect: "creative",
+      //     spaceBetween: 0,
+      //     slidesPerView: 1.2,
+      //     height: 770,
+      //     centeredSlides: true,
+      //     // pagination: {
+      //     //   el: ".swiper-pagination",
+      //     //   clickable: true,
+      //     // },
+      //     mousewheel: true,
+      //     speed: 1000,
+      //     loop: true,
 
 
-          breakpoints: {
-            1500: {
-              slidesPerView: 1,
-              centeredSlides: true,
-            },
+      //     breakpoints: {
+      //       1500: {
+      //         slidesPerView: 1.2,
+      //         centeredSlides: true,
+      //       },
 
-            768: {
-              slidesPerView: 1,
-              centeredSlides: true,
-            },
-            450: {
-              spaceBetween: 100,
+      //       768: {
+      //         slidesPerView: 1,
+      //         direction: "horizontal",
+      //         centeredSlides: true,
+      //       },
+      //       450: {
+      //         direction: "horizontal",
+      //         spaceBetween: 100,
 
-            }
-          }
+      //       }
+      //     }
 
-        });
-      });
-
-      $(document).ready(function () {
-
-        // HERO SLIDER
-        var menu = [];
-        jQuery('.swiper-slide').each(function (index) {
-          menu.push(jQuery(this).find('.slide-inner').attr("data-text"));
-        });
-        var interleaveOffset = 0.5;
-        var swiperOptions = {
-          loop: true,
-          speed: 1000,
-          parallax: true,
-          mousewheel: true,
-          autoplay: {
-            delay: 6500,
-            disableOnInteraction: false,
-          },
-          watchSlidesProgress: true,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
-
-          // navigation: {
-          //     nextEl: '.swiper-button-next',
-          //     prevEl: '.swiper-button-prev',
-          // },
-
-          on: {
-            progress: function () {
-              var swiper = this;
-              for (var i = 0; i < swiper.slides.length; i++) {
-                var slideProgress = swiper.slides[i].progress;
-                var innerOffset = swiper.width * interleaveOffset;
-                var innerTranslate = slideProgress * innerOffset;
-                swiper.slides[i].querySelector(".slide-inner").style.transform =
-                  "translate3d(" + innerTranslate + "px, 0, 0)";
-              }
-            },
-
-            touchStart: function () {
-              var swiper = this;
-              for (var i = 0; i < swiper.slides.length; i++) {
-                swiper.slides[i].style.transition = "";
-              }
-            },
-
-            setTransition: function (speed) {
-              var swiper = this;
-              for (var i = 0; i < swiper.slides.length; i++) {
-                swiper.slides[i].style.transition = speed + "ms";
-                swiper.slides[i].querySelector(".slide-inner").style.transition =
-                  speed + "ms";
-              }
-            }
-          }
-        };
-
-        var swiper = new Swiper(".swiper-container", swiperOptions);
-
-        // DATA BACKGROUND IMAGE
-        var sliderBgSetting = $(".slide-bg-image");
-        sliderBgSetting.each(function (indx) {
-          if ($(this).attr("data-background")) {
-            $(this).css("background-image", "url(" + $(this).data("background") + ")");
-          }
-        });
+      //   });
+      // });
+      // $(document).ready(function () {
+      //   var swiper = new Swiper(".mySwiper-7-varticle2", {
+      //     direction: "vertical",
+      //     parallax: true,
+      //     // watchSlidesProgress: true,
+      //     effect: "creative",
+      //     spaceBetween: 0,
+      //     slidesPerView: 1,
+      //     centeredSlides: true,
+      //     // pagination: {
+      //     //   el: ".swiper-pagination",
+      //     //   clickable: true,
+      //     // },
+      //     mousewheel: true,
+      //     speed: 1000,
+      //     loop: true,
 
 
-      });
-      $(document).ready(function () {
+      //     breakpoints: {
+      //       1500: {
+      //         slidesPerView: 1,
+      //         centeredSlides: true,
+      //       },
 
-        // HERO SLIDER
-        var menu = [];
-        jQuery('.swiper-slide').each(function (index) {
-          menu.push(jQuery(this).find('.slide-inner').attr("data-text"));
-        });
-        var interleaveOffset = 0.5;
-        var swiperOptions = {
-          loop: true,
-          direction: "vertical",
-          speed: 1000,
-          parallax: true,
-          mousewheel: true,
-          autoplay: {
-            delay: 6500,
-            disableOnInteraction: false,
-          },
-          // watchSlidesProgress: true,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
+      //       768: {
+      //         slidesPerView: 1,
+      //         centeredSlides: true,
+      //       },
+      //       450: {
+      //         spaceBetween: 100,
 
-          // navigation: {
-          //     nextEl: '.swiper-button-next',
-          //     prevEl: '.swiper-button-prev',
-          // },
+      //       }
+      //     }
 
-          on: {
-            progress: function () {
-              var swiper = this;
-              for (var i = 0; i < swiper.slides.length; i++) {
-                var slideProgress = swiper.slides[i].progress;
-                var innerOffset = swiper.width * interleaveOffset;
-                var innerTranslate = slideProgress * innerOffset;
-                swiper.slides[i].querySelector(".slide-inner").style.transform =
-                  "translate3d(" + innerTranslate + "px, 0, 0)";
-              }
-            },
+      //   });
+      // });
 
-            touchStart: function () {
-              var swiper = this;
-              for (var i = 0; i < swiper.slides.length; i++) {
-                swiper.slides[i].style.transition = "";
-              }
-            },
+      // $(document).ready(function () {
 
-            setTransition: function (speed) {
-              var swiper = this;
-              for (var i = 0; i < swiper.slides.length; i++) {
-                swiper.slides[i].style.transition = speed + "ms";
-                swiper.slides[i].querySelector(".slide-inner").style.transition =
-                  speed + "ms";
-              }
-            }
-          }
-        };
+      //   // HERO SLIDER
+      //   var menu = [];
+      //   jQuery('.swiper-slide').each(function (index) {
+      //     menu.push(jQuery(this).find('.slide-inner').attr("data-text"));
+      //   });
+      //   var interleaveOffset = 0.5;
+      //   var swiperOptions = {
+      //     loop: true,
+      //     speed: 1000,
+      //     parallax: true,
+      //     mousewheel: true,
+      //     autoplay: {
+      //       delay: 6500,
+      //       disableOnInteraction: false,
+      //     },
+      //     watchSlidesProgress: true,
+      //     pagination: {
+      //       el: '.swiper-pagination',
+      //       clickable: true,
+      //     },
 
-        var swiper = new Swiper(".swiper-container-2", swiperOptions);
+      //     // navigation: {
+      //     //     nextEl: '.swiper-button-next',
+      //     //     prevEl: '.swiper-button-prev',
+      //     // },
 
-        // DATA BACKGROUND IMAGE
-        var sliderBgSetting = $(".slide-bg-image");
-        sliderBgSetting.each(function (indx) {
-          if ($(this).attr("data-background")) {
-            $(this).css("background-image", "url(" + $(this).data("background") + ")");
-          }
-        });
+      //     on: {
+      //       progress: function () {
+      //         var swiper = this;
+      //         for (var i = 0; i < swiper.slides.length; i++) {
+      //           var slideProgress = swiper.slides[i].progress;
+      //           var innerOffset = swiper.width * interleaveOffset;
+      //           var innerTranslate = slideProgress * innerOffset;
+      //           swiper.slides[i].querySelector(".slide-inner").style.transform =
+      //             "translate3d(" + innerTranslate + "px, 0, 0)";
+      //         }
+      //       },
 
+      //       touchStart: function () {
+      //         var swiper = this;
+      //         for (var i = 0; i < swiper.slides.length; i++) {
+      //           swiper.slides[i].style.transition = "";
+      //         }
+      //       },
 
-      });
+      //       setTransition: function (speed) {
+      //         var swiper = this;
+      //         for (var i = 0; i < swiper.slides.length; i++) {
+      //           swiper.slides[i].style.transition = speed + "ms";
+      //           swiper.slides[i].querySelector(".slide-inner").style.transition =
+      //             speed + "ms";
+      //         }
+      //       }
+      //     }
+      //   };
 
-      $(document).ready(function () {
+      //   var swiper = new Swiper(".swiper-container", swiperOptions);
 
-        var swiper = new Swiper(".mySwiper-testimonials-two", {
-          slidesPerView: 1,
-          loop: true,
-          spaceBetween: 100,
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-        });
-
-
-      });
-
-      $(document).ready(function () {
-
-        var swiper = new Swiper(".mySwiper-product-details-lm", {
-          loop: true,
-          speed: 1000,
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-        });
+      //   // DATA BACKGROUND IMAGE
+      //   var sliderBgSetting = $(".slide-bg-image");
+      //   sliderBgSetting.each(function (indx) {
+      //     if ($(this).attr("data-background")) {
+      //       $(this).css("background-image", "url(" + $(this).data("background") + ")");
+      //     }
+      //   });
 
 
-      });
+      // });
+      // $(document).ready(function () {
+
+      //   // HERO SLIDER
+      //   var menu = [];
+      //   jQuery('.swiper-slide').each(function (index) {
+      //     menu.push(jQuery(this).find('.slide-inner').attr("data-text"));
+      //   });
+      //   var interleaveOffset = 0.5;
+      //   var swiperOptions = {
+      //     loop: true,
+      //     direction: "vertical",
+      //     speed: 1000,
+      //     parallax: true,
+      //     mousewheel: true,
+      //     autoplay: {
+      //       delay: 6500,
+      //       disableOnInteraction: false,
+      //     },
+      //     // watchSlidesProgress: true,
+      //     pagination: {
+      //       el: '.swiper-pagination',
+      //       clickable: true,
+      //     },
+
+      //     // navigation: {
+      //     //     nextEl: '.swiper-button-next',
+      //     //     prevEl: '.swiper-button-prev',
+      //     // },
+
+      //     on: {
+      //       progress: function () {
+      //         var swiper = this;
+      //         for (var i = 0; i < swiper.slides.length; i++) {
+      //           var slideProgress = swiper.slides[i].progress;
+      //           var innerOffset = swiper.width * interleaveOffset;
+      //           var innerTranslate = slideProgress * innerOffset;
+      //           swiper.slides[i].querySelector(".slide-inner").style.transform =
+      //             "translate3d(" + innerTranslate + "px, 0, 0)";
+      //         }
+      //       },
+
+      //       touchStart: function () {
+      //         var swiper = this;
+      //         for (var i = 0; i < swiper.slides.length; i++) {
+      //           swiper.slides[i].style.transition = "";
+      //         }
+      //       },
+
+      //       setTransition: function (speed) {
+      //         var swiper = this;
+      //         for (var i = 0; i < swiper.slides.length; i++) {
+      //           swiper.slides[i].style.transition = speed + "ms";
+      //           swiper.slides[i].querySelector(".slide-inner").style.transition =
+      //             speed + "ms";
+      //         }
+      //       }
+      //     }
+      //   };
+
+      //   var swiper = new Swiper(".swiper-container-2", swiperOptions);
+
+      //   // DATA BACKGROUND IMAGE
+      //   var sliderBgSetting = $(".slide-bg-image");
+      //   sliderBgSetting.each(function (indx) {
+      //     if ($(this).attr("data-background")) {
+      //       $(this).css("background-image", "url(" + $(this).data("background") + ")");
+      //     }
+      //   });
 
 
-      $(document).ready(function () {
-        var swiper = new Swiper(".mySwiper-testimonails-about-s", {
-          slidesPerView: 1,
-          spaceBetween: 30,
-          loop: true,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-        });
-      });
+      // });
+
+      // $(document).ready(function () {
+
+      //   var swiper = new Swiper(".mySwiper-testimonials-two", {
+      //     slidesPerView: 1,
+      //     loop: true,
+      //     spaceBetween: 100,
+      //     navigation: {
+      //       nextEl: ".swiper-button-next",
+      //       prevEl: ".swiper-button-prev",
+      //     },
+      //   });
+
+
+      // });
+
+      // $(document).ready(function () {
+
+      //   var swiper = new Swiper(".mySwiper-product-details-lm", {
+      //     loop: true,
+      //     speed: 1000,
+      //     navigation: {
+      //       nextEl: ".swiper-button-next",
+      //       prevEl: ".swiper-button-prev",
+      //     },
+      //   });
+
+
+      // });
+
+
+      // $(document).ready(function () {
+      //   var swiper = new Swiper(".mySwiper-testimonails-about-s", {
+      //     slidesPerView: 1,
+      //     spaceBetween: 30,
+      //     loop: true,
+      //     pagination: {
+      //       el: ".swiper-pagination",
+      //       clickable: true,
+      //     },
+      //     navigation: {
+      //       nextEl: ".swiper-button-next",
+      //       prevEl: ".swiper-button-prev",
+      //     },
+      //   });
+      // });
 
 
 

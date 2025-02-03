@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="title-area-inner large-image">
+                        <div class="title-area-inner large-image max-w-800">
                             <h2 class="title quote text-dark">Accelerating the adoption of digital <span>technologies</span> </h2>
                         </div>
                     </div>
@@ -45,5 +45,9 @@ const props = defineProps({
 
 .rts-section-gap{
     padding: 50px 0;
+}
+.max-w-800{
+    max-width: 800px !important;
+    margin: auto !important;
 }
 </style>
