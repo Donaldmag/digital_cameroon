@@ -18,8 +18,7 @@
                                         <h3>{{ service.name }}</h3>
                                     </div>
                                     <div class="list-info col-md-3">
-                                        <p class="disc">
-                                            {{ service.description }}
+                                        <p v-html="service.description" class="disc">
                                         </p>
                                     </div>
                                     <div class="button-area">
@@ -44,7 +43,6 @@
 const props = defineProps({
     servicesList : { type: Array, required: true },
 });
-console.log('props is', props.servicesList);
 </script>
 
 <style scoped>

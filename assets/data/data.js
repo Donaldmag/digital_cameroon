@@ -1,28 +1,60 @@
 export const logoIcons = [
-    { id: 1, link: '#', imgUrl: '/images/brand/01.png', altTxt:''},
-    { id: 2, link: '#', imgUrl: '/images/brand/02.png', altTxt:''},
-    { id: 3, link: '#', imgUrl: '/images/brand/03.png', altTxt:''},
-    { id: 4, link: '#', imgUrl: '/images/brand/04.png', altTxt:''},
-    { id: 5, link: '#', imgUrl: '/images/brand/05.png', altTxt:''},
-    { id: 6, link: '#', imgUrl: '/images/brand/06.png', altTxt:''},
+  { id: 1, link: "#", imgUrl: "/images/brand/01.png", altTxt: "" },
+  { id: 2, link: "#", imgUrl: "/images/brand/02.png", altTxt: "" },
+  { id: 3, link: "#", imgUrl: "/images/brand/03.png", altTxt: "" },
+  { id: 4, link: "#", imgUrl: "/images/brand/04.png", altTxt: "" },
+  { id: 5, link: "#", imgUrl: "/images/brand/05.png", altTxt: "" },
+  { id: 6, link: "#", imgUrl: "/images/brand/06.png", altTxt: "" },
 ];
 
 export const servicesList = [
   {
     id: 1,
     name: "Consulting",
-    link: "/services/web-design",
+    link: "",
     imgUrl: "/images/product/15.jpg",
     description:
-      "• Strategic digital transformation guidance • Technology adoption frameworks • Digital maturity assessments",
+      "• Strategic digital transformation guidance <br> • Technology adoption frameworks <br> • Digital maturity assessments",
   },
   {
     id: 2,
     name: "Training",
-    link: "/services/web-design",
+    link: "",
     imgUrl: "/images/product/15.jpg",
     description:
-      "Creating and building websites, landing pages, and web applications using front-end and back-end development",
+      "• Digital Skills Observatory programs <br> • Professional development courses <br> • Technology certification paths",
+  },
+  {
+    id: 3,
+    name: "Sourcing",
+    link: "",
+    imgUrl: "/images/product/15.jpg",
+    description:
+      "• Technology vendor assessment <br> • Implementation support <br> • Quality assurance",
+  },
+  {
+    id: 4,
+    name: "Innovation",
+    link: "",
+    imgUrl: "/images/product/15.jpg",
+    description:
+    "• E-Commerce Innovation Lab <br> • Digital Governance Standards Lab <br> • Research & Development centers "
+  },
+  {
+    id: 5,
+    name: "Advisory",
+    link: "",
+    imgUrl: "/images/product/15.jpg",
+    description:
+    "• Digital governance standards <br> • Regulatory compliance guidance <br> • Public sector digital transformation ",
+  },
+  {
+    id: 6,
+    name: "Lobbying",
+    link: "",
+    imgUrl: "/images/product/15.jpg",
+    description:
+    "• Industry representation <br> • Policy influence <br> • Stakeholder engagement",
   },
 ];
 
@@ -113,22 +145,22 @@ export const achievementsList = [
     id: 3,
     title: "Educational Impact",
     desc: "• 1,500 training courses distributed <br> • AI guide for public servants development <br> • Index of Digital Usage (in progress)",
-    icon: "/images/working-process/icon/03.png"
+    icon: "/images/working-process/icon/03.png",
   },
   {
     id: 4,
     title: "Community Initiatives",
     desc: "• Tech BBQ in Douala <br> • Creation of a community dedicated to e-commerce named “E-Cammerce“",
-    icon: "/images/working-process/icon/04.png"
+    icon: "/images/working-process/icon/04.png",
   },
 ];
 
 export const testimonialsData = [
   {
-    id:1, 
-    author:'Franklin Epape', 
-    authorTitle:'ADN Canada', 
-    desc:"Our 2024 partnership with DigitalCameroon has redefined diaspora engagement in Africa's digital transformation creating a blueprint for diaspora-led change.", 
-    imgUrl:'/images/about/04.jpg'
-  }
+    id: 1,
+    author: "Franklin Epape",
+    authorTitle: "ADN Canada",
+    desc: "Our 2024 partnership with DigitalCameroon has redefined diaspora engagement in Africa's digital transformation creating a blueprint for diaspora-led change.",
+    imgUrl: "/images/about/04.jpg",
+  },
 ];
