@@ -48,6 +48,9 @@ const props = defineProps({
 <style scoped>
 .service-area-one-main-wrapper .single-item-service-one a{
     border-top: none;
-    border-bottom: solid 1px #e8e8e8;
+    border-bottom: solid 1 #e8e8e8;
+}
+.service-area-one-main-wrapper .single-item-service-one:hover a .list-title h3{ 
+    color: red !important;
 }
 </style>

@@ -13,8 +13,8 @@
             <div class="container-160">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="large-video-playing grow">
-                            <video controls loading="lazy">
+                        <div class="large-video-playing grow video-container bg--dark">
+                            <video controls loading="lazy" :poster="placeholderImage" autoplay  muted>
                                 <source :src="videoURL" type="video/mp4">
                             </video>
                         </div>
@@ -28,6 +28,7 @@
 <script setup>
 const props = defineProps({
     videoURL: {type: String, required: false},
+    placeholderImage: {type: String, required: false},
 });
 </script>
 
@@ -50,4 +51,14 @@ const props = defineProps({
     max-width: 800px !important;
     margin: auto !important;
 }
+
+.video-container {
+    position: relative;
+    width: 100%; 
+    height: auto; 
+    background-image: url(`$[props.placeholderImage]`);
+    background-size: cover;
+    background-position: center;
+}
+
 </style>

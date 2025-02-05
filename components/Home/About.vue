@@ -15,7 +15,7 @@
                                     :button-link="'about'"
                                     :button-style="'styleSix'"
                                 /> -->
-                                <button @click="navigateTo('/about-us')" class="learn-more-btn">More About Us <i
+                                <button @click="navigateTo('/about-us')" class="learn-more-btn">Find Out More <i
                                     class="fa-solid fa-arrow-up-right"></i></button>
                             </p>
                         </div>

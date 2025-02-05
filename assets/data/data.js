@@ -12,7 +12,7 @@ export const servicesList = [
     id: 1,
     name: "Consulting",
     link: "",
-    imgUrl: "/images/product/15.jpg",
+    imgUrl: "https://img.freepik.com/premium-photo/african-american-businesswoman-signing-contract_1235831-58053.jpg?w=996",
     description:
       "• Strategic digital transformation guidance <br> • Technology adoption frameworks <br> • Digital maturity assessments",
   },
@@ -20,7 +20,7 @@ export const servicesList = [
     id: 2,
     name: "Training",
     link: "",
-    imgUrl: "/images/product/15.jpg",
+    imgUrl: "https://img.freepik.com/premium-photo/student-using-laptop-classroom_1293807-9475.jpg?w=740",
     description:
       "• Digital Skills Observatory programs <br> • Professional development courses <br> • Technology certification paths",
   },
@@ -28,7 +28,7 @@ export const servicesList = [
     id: 3,
     name: "Sourcing",
     link: "",
-    imgUrl: "/images/product/15.jpg",
+    imgUrl: "https://img.freepik.com/premium-photo/businessman-using-tablet-with-network-icons-graphs_1310182-13339.jpg?w=996",
     description:
       "• Technology vendor assessment <br> • Implementation support <br> • Quality assurance",
   },
@@ -36,7 +36,7 @@ export const servicesList = [
     id: 4,
     name: "Innovation",
     link: "",
-    imgUrl: "/images/product/15.jpg",
+    imgUrl: "https://img.freepik.com/premium-photo/scientist-lab-uses-advanced-robotic-hands-interact-with-computer-display-showing-data-analysis_93675-309699.jpg?w=1380",
     description:
     "• E-Commerce Innovation Lab <br> • Digital Governance Standards Lab <br> • Research & Development centers "
   },
@@ -44,7 +44,7 @@ export const servicesList = [
     id: 5,
     name: "Advisory",
     link: "",
-    imgUrl: "/images/product/15.jpg",
+    imgUrl: "https://img.freepik.com/premium-photo/legal-advice-online-labor-law-concept-layer-notary-working-business-company_1261838-40581.jpg?w=1380",
     description:
     "• Digital governance standards <br> • Regulatory compliance guidance <br> • Public sector digital transformation ",
   },
@@ -52,7 +52,7 @@ export const servicesList = [
     id: 6,
     name: "Lobbying",
     link: "",
-    imgUrl: "/images/product/15.jpg",
+    imgUrl: "https://img.freepik.com/premium-photo/urban-life-job-seekers-professional-photography_925376-87073.jpg?w=996",
     description:
     "• Industry representation <br> • Policy influence <br> • Stakeholder engagement",
   },
@@ -164,3 +164,19 @@ export const testimonialsData = [
     imgUrl: "/images/about/04.jpg",
   },
 ];
+
+// import { AgriTech } from "@/components/icons/AgriTech.vue";
+// import { AgriTech } from "@/components/icons/Ecommerce.vue";
+// import { Edtech } from "@/components/icons/Edtech.vue";
+// import { Fintech } from "@/components/icons/Fintech.vue";
+// import { Govtech } from "@/components/icons/Govtech.vue";
+// import { Smartcity } from "@/components/icons/Smartcity.vue";
+
+// export const svgicons = [
+//   { id: 1, icon: AgriTech },
+//   { id: 2, icon: AgriTech },
+//   { id: 3, icon: Edtech },
+//   { id: 4, icon: Fintech },
+//   { id: 5, icon: Govtech },
+//   { id: 6, icon: Smartcity },
+// ];

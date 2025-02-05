@@ -2,13 +2,13 @@
     <div>
         <div class="inner-page height">
             <HomeHeroBannerVariant
-                :background-image-url="'/images/banner/27.jpg'"
+                :background-image-url="'https://img.freepik.com/premium-photo/wireframe-background-with-plexus-effect-futuristic-vector_1106493-221019.jpg?w=740'"
                 :hero-heading-text="'Test'"
                 :hero-link="'contact'"
             />
-            <HomeLoadingVideo :video-url="'/images/video/02.mp4'"/>
+            <HomeLoadingVideo :video-url="'/images/video/02.mp4'" :placeholder-image="''"/>
             <HomeAbout 
-            :heading="'Words from Founder'"
+            :heading="'The Founder'"
             :about-txt="`At DigitalCameroon, we are dedicated to driving the digital transformation of Cameroon and positioning the country as a leader in Africa’s digital economy. In 2024, we made great strides by launching initiatives such as the E-Commerce Innovation Lab and proposing AI-driven solutions like TchatPost for government services. Our presence at global tech events like LEAP Riyadh and GITEX Global has opened doors to exciting new partnerships and opportunities, reinforcing our belief in Cameroon’s potential. As we look to 2025, we are thrilled to build on this momentum with our flagship project, Techritories, which will accelerate the digital, economic, social, and cultural transformation of Cameroon. With your continued support, we are confident that together, we will create a brighter and more inclusive digital future for the country.`"
             />
             <CommonHorizontalScrollingText

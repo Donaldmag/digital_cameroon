@@ -25,9 +25,9 @@
                     <div class="col-lg-12">
                         <div class="main-header-two">
                             <!-- <div class="header-left-area"> -->
-                                <div class="logo-area">
+                                <div class="logo-area max-w-144">
                                     <a href="index-2.html" class="loog">
-                                        <img src="/images/logo/03.svg" alt="Brand__logo" />
+                                        <img src="/images/logo/digitalcameroon-logo-white.png" alt="Brand__logo" />
                                     </a>
                                 </div>
                                 <!-- <a href="portfolio-grid.html" class="rts-btn btn-radious btn-dark">View Showcase</a> -->
@@ -99,4 +99,18 @@
 import { headerMenu } from '/assets/data/menu';
 </script>
 
-<style scoped></style>
+<style scoped>
+.img-adjustment{
+    max-width: 20% !important;
+}
+.max-w-144{
+    max-width: 144px;
+}
+/* .nav-area .navbar-nav-1 .menu-item .sub-menu li.menu-item a{ */
+    .nav-area .navbar-nav-1 .menu-item .sub-menu li.menu-item:hover .menu-link{
+    color: red !important;
+}
+.nav-area .navbar-nav-1 .menu-item .sub-menu li.menu-item .menu-link::before {
+    background-color: red;
+}
+</style>
