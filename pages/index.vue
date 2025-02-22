@@ -2,7 +2,7 @@
     <div>
         <div class="inner-page height">
             <HomeHeroBannerVariant
-                :background-image-url="'https://img.freepik.com/premium-photo/wireframe-background-with-plexus-effect-futuristic-vector_1106493-221019.jpg?w=740'"
+                :background-image-url="'https://img.freepik.com/premium-photo/wireframe-background-with-plexus-effect-futuristic-vector_1106493-221019.jpg'"
                 :hero-heading-text="'Test'"
                 :hero-link="'contact'"
             />

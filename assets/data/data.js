@@ -165,18 +165,68 @@ export const testimonialsData = [
   },
 ];
 
-// import { AgriTech } from "@/components/icons/AgriTech.vue";
-// import { AgriTech } from "@/components/icons/Ecommerce.vue";
-// import { Edtech } from "@/components/icons/Edtech.vue";
-// import { Fintech } from "@/components/icons/Fintech.vue";
-// import { Govtech } from "@/components/icons/Govtech.vue";
-// import { Smartcity } from "@/components/icons/Smartcity.vue";
+// import { AgriTech } from "@/components/icons/AgriTech";
+// import { Ecommerce } from "@/components/icons/Ecommerce";
+// import { Edtech } from "@/components/icons/Edtech";
+// import { Fintech } from "@/components/icons/Fintech";
+// import { Govtech } from "@/components/icons/Govtech";
+// import { Smartcity } from "@/components/icons/Smartcity";
 
 // export const svgicons = [
 //   { id: 1, icon: AgriTech },
-//   { id: 2, icon: AgriTech },
+//   { id: 2, icon: Ecommerce },
 //   { id: 3, icon: Edtech },
 //   { id: 4, icon: Fintech },
 //   { id: 5, icon: Govtech },
 //   { id: 6, icon: Smartcity },
 // ];
+
+export const swiperCarouselsOptions = {
+  spaceBetween: 0,
+  slidesPerView: 11,
+  scrollbar: { draggable: true, hide: true },
+  speed: 800,
+  breakpoints: {
+    2560: {
+      slidesPerView: 4.2,
+      slidesPerGroup: 2,
+      spaceBetween: 25,
+    },
+
+    1440: {
+      slidesPerView: 4.2,
+      slidesPerGroup: 2,
+      spaceBetween: 25,
+    },
+
+    1280: {
+      slidesPerView: 2.9,
+      slidesPerGroup: 2.9,
+      spaceBetween: 30,
+    },
+
+    1024: {
+      slidesPerView: 2.3,
+      slidesPerGroup: 2.3,
+      spaceBetween: 30,
+    },
+
+    768: {
+      slidesPerView: 2.1,
+      slidesPerGroup: 2.1,
+      spaceBetween: 30,
+    },
+
+    712: {
+      slidesPerView: 2.3,
+      slidesPerGroup: 2.3,
+      spaceBetween: 20,
+    },
+
+    320: {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 2,
+    },
+  },
+}; 
