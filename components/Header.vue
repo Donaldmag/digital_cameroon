@@ -26,7 +26,7 @@
                         <div class="main-header-two">
                             <!-- <div class="header-left-area"> -->
                                 <div class="logo-area max-w-144">
-                                    <a href="index-2.html" class="loog">
+                                    <a @click="navigateTo('/')" href="javascript:void(0)" class="loog">
                                         <img src="/images/logo/digitalcameroon-logo-white.png" alt="Brand__logo" />
                                     </a>
                                 </div>
@@ -62,20 +62,17 @@
 
                             <div class="header-right">
                                 <div class="language-check">
-                                    <!-- check -->
                                     <div class="input-group">
-                                        <button type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            English
-                                            <i class="fa-sharp fa-light fa-chevron-down"></i>
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Chinese</a></li>
-                                            <li><a class="dropdown-item" href="#">Spanish</a></li>
-                                            <li><a class="dropdown-item" href="#">Arabic</a></li>
-                                            <li><a class="dropdown-item" href="#">Portuguese</a></li>
-                                        </ul>
+                                    <button type="button" @click="toggleDropdown">
+                                        {{ selectedLanguage }}
+                                        <i class="fa-sharp fa-light fa-chevron-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" :class="{'show' : isOpen}">
+                                        <li v-for="language in languages" :key="language">
+                                        <a class="dropdown-item" href="#" @click="selectLanguage(language)">{{ language }}</a>
+                                        </li>
+                                    </ul>
                                     </div>
-                                    <!-- check -->
                                 </div>
                                 <!-- social area start -->
                                 <div class="social-transparent-wrapper">
@@ -97,6 +94,20 @@
 
 <script setup>
 import { headerMenu } from '/assets/data/menu';
+
+const languages = ['English', 'Chinese', 'Spanish', 'Arabic', 'Portuguese'];
+const selectedLanguage = ref('English');
+const isOpen = ref(false);
+
+const toggleDropdown = () => {
+  isOpen.value = !isOpen.value;
+};
+
+const selectLanguage = (language) => {
+  selectedLanguage.value = language;
+  isOpen.value = false;
+};
+
 </script>
 
 <style scoped>

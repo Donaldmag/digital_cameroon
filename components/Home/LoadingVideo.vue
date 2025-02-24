@@ -36,7 +36,16 @@ const props = defineProps({
 .text-dark{
     color: #222222;
     font-weight: 200 !important;
-    line-height: 120px;
+    /* line-height: 60px ; */
+}
+
+@media screen and (min-width:568px) {
+    .text-dark{
+        line-height: 90px !important;
+    }
+    .max-w-980{
+        max-width: 980px !important;
+    }
 }
 
 .text-dark span{
@@ -48,7 +57,7 @@ const props = defineProps({
     padding: 50px 0;
 }
 .max-w-980{
-    max-width: 980px !important;
+    max-width: 320px;
     margin: auto !important;
 }
 

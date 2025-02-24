@@ -15,7 +15,7 @@
                     <div class="col-lg-12">
                         <div class="banner-inner-7">
                             <h1 class="title text-center rts_hero__title">
-                                A leading <span>think <span class="go-red">tank</span> </span> and <br><span> <span class="go-red">innovation</span> laboratory</span><br> dedicated to the <span>digital <span class="go-red">transformation</span></span> of Cameroon.
+                                A leading <span>think <span class="go-red">tank</span> </span> and <br><span> <span class="go-red">innovation</span> laboratory </span><br> dedicated to the <span>digital <span class="go-red">transformation</span></span> of Cameroon.
                             </h1>
 
                             <div class="top-center-image rts-scroll-down-circle-wrapper-5">
@@ -61,16 +61,27 @@ const setBackgroundImage = computed(() =>{
 </script>
 
 <style scoped>
-.banner-inner-7 .title{
-    font-size: 55px !important;
-    line-height: 80px !important;
-}
-
-.banner-inner-7 .title span{
-    font-size: 85px !important;
+@media screen and (min-width: 575px) {
+    .banner-inner-7 .title{
+        font-size: 55px !important;
+        line-height: 80px !important;
+    }
+    
+    .banner-inner-7 .title span{
+        font-size: 80px !important;
+    }
 }
 
 .go-red{
     color: red !important;
 }
+
+.banner-inner-7 .title{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    
+    .banner-inner-7 .title span{
+        font-size: 55px;
+    }
 </style>

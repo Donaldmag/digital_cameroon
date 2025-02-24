@@ -37,6 +37,8 @@ const props = defineProps({
 <style scoped>
 .max-w-720{
     max-width: 720px;
+    font-size: 14px;
+    line-height: 22px;
 }
 .rts-section-gap {
     padding: 50px 0;
