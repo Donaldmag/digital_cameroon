@@ -1335,12 +1335,12 @@
       $(document).ready(function () {
         let rts_jump_counter_animation = document.getElementsByClassName('rts_jump_counter__animation');
         if (rts_jump_counter_animation.length) {
-          gsap.set(".counter_animation .counter__anim", {
+          gsap.set(".counter__anim", {
             y: -100,
             opacity: 0,
           })
           if (device_width < 1023) {
-            const counterArray = gsap.utils.toArray(".counter_animation .counter__anim")
+            const counterArray = gsap.utils.toArray(".counter__anim")
             counterArray.forEach((item, i) => {
               let counterTl = gsap.timeline({
                 scrollTrigger: {
@@ -1356,9 +1356,9 @@
               })
             })
           } else {
-            gsap.to(".counter_animation .counter__anim", {
+            gsap.to(".counter__anim", {
               scrollTrigger: {
-                trigger: ".counter_animation",
+                trigger: "",
                 start: "top center+=300",
               },
               y: 0,

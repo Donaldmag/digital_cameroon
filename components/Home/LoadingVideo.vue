@@ -65,7 +65,7 @@ const props = defineProps({
     position: relative;
     width: 100%; 
     height: auto; 
-    background-image: url(`${props.placeholderImage}`);
+    /* background-image: url(`${props.placeholderImage}`); */
     background-size: cover;
     background-position: center;
 }
