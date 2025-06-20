@@ -15,7 +15,7 @@
                 :button-style="'styleThree'"
             />
 
-            <HeroBanner 
+            <HomeHeroBanner 
                 :background-image-url="'../images/banner/bg-shape.png'"
                 :hero-heading-text="'Test'"
                 :hero-paragraph-text="`Our team of experts is dedicated to helping you achieve your digital goals.

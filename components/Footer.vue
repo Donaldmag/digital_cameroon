@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="rts-footer-two-area bg-footer-2 bg_image-1">
+        <div class="rts-footer-two-area bg_image-1 bg--dark">
             <div class="container-140">
                 <div class="row">
                     <div class="col-lg-12 pt--130 pt_sm--60 pb--100 pb_sm--60">
