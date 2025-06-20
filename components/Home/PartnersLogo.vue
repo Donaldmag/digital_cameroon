@@ -10,7 +10,7 @@
                     </div>
                     <div class="col-lg-12 mt--60">
                         <div class="brand-area-style-one">
-                            <a v-for="(logo, index) in logoIcons" :logo="logo" :key="index" class="rts-skew-up-gsap" href="jacascript:void(0)" @click="navigateTo('')">
+                            <a v-for="(logo, index) in logoIcons" :logo="logo" :key="index" class="rts-skew-up-gsap mb-4" href="jacascript:void(0)" @click="navigateTo('')">
                                 <img :src="logo.imgUrl" :alt="logo.atlTxt">
                             </a>
                         </div>

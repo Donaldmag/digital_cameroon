@@ -17,7 +17,6 @@
                             <h1 class="title text-center rts_hero__title">
                                 A leading <span>think <span class="go-red">tank</span> </span> and <br><span> <span class="go-red">innovation</span> laboratory </span><br> dedicated to the <span>digital <span class="go-red">transformation</span></span> of Cameroon.
                             </h1>
-
                             <div class="top-center-image rts-scroll-down-circle-wrapper-5">
                                 <a href="javascript:void(0)" @click="navigateTo(`/${heroLink}`)" class="speen-shape scroll-down-circle-5">
                                     <svg class="uni-circle-text-path uk-text-secondary uni-animation-spin" viewBox="0 0 100 100" width="180" height="180">

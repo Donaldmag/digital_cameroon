@@ -14,8 +14,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="large-video-playing grow video-container bg--dark">
-                            <video controls loading="lazy" :poster="placeholderImage" autoplay  muted>
-                                <source :src="videoURL" type="video/mp4">
+                            <video controls loading="lazy" :poster="placeholderImage" autoplay loop muted>
+                                <source :src="videoUrl" type="video/mp4">
                             </video>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
 
 <script setup>
 const props = defineProps({
-    videoURL: {type: String, required: false},
+    videoUrl: {type: String, required: false},
     placeholderImage: {type: String, required: false},
 });
 </script>

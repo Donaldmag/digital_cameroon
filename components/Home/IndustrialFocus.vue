@@ -20,4 +20,9 @@ const props = defineProps({
 .rts-case-service-area-h2 .water-txt-top{
     font-size: 116px;
 }
+@media screen and (max-width: 768px){
+    .rts-case-service-area-h2 .water-txt-top{
+    font-size: 68px;
+    }
+}
 </style>
