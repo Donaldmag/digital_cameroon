@@ -7,6 +7,13 @@
 </template>
 
 <script setup>
+// import '@/assets/css/style.css';
+// import '@/assets/css/plugins/amimate.min.css';
+// import '@/assets/css/plugins/fontawesome-6.css';
+// import '@/assets/css/plugins/swiper.min.css';
+// import '@/assets/css/vendor/bootstrap.min.css';
+// import '@/assets/css/vendor/metismenu.css';
+
 useHead({
   title: 'Digital Cameroon',
   meta: [
