@@ -14,7 +14,7 @@ The site is built using Vue 3 and integrate GSAP to render outstanding animation
 ## Technologies & Theme
 
   **Technologies:**
-  - Vue 3 / Nuxt 3 (Choose based on project) <br>
+  - Vue 3 / Nuxt 3 <br>
   - GSAP animation (scrolltiger, scrolltoplugin, splittext, smoothscroll, scrollmagic, tilt)  <br>
   
   **Theme:**
@@ -22,9 +22,9 @@ The site is built using Vue 3 and integrate GSAP to render outstanding animation
   Source: 
 
 ## Deployment & Dev Tools
-  - VPS (CONTABO)
-  - Nginx (for reverse proxy)
-  - PM2 (process manager for Node.js)
+  - VPS (CONTABO) <br>
+  - Nginx (for reverse proxy) <br>
+  - PM2 (process manager for Node.js) <br>
   - VS Code (development environment)
 
 ## Depoyment on VPS
@@ -73,6 +73,7 @@ npm run dev
 nuxt start
 
 Open http://localhost:3000
+Demo: https://digitalcameroon.org/
 
 
 
