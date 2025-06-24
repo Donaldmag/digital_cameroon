@@ -29,11 +29,11 @@ The site is built using Vue 3 and integrate GSAP to render outstanding animation
 
 ## Depoyment on VPS
 
-1. Connect to VPS via SSH:
-   ssh root@your_server_ip
+1. Connect to VPS via SSH: <br>
+   ssh root@your_server_ip 
    
-2. Install Dependencies:
-  sudo apt update && sudo apt upgrade -y
+2. Install Dependencies: <br>
+  sudo apt update && sudo apt upgrade -y <br>
   sudo apt install -y git nodejs npm nginx
 .
 .
@@ -65,14 +65,14 @@ The site is built using Vue 3 and integrate GSAP to render outstanding animation
 git clone project_url
 
 **Installing dependencies**
-npm install 
+npm install <br>
 yarn install
 
 **Starting project**
-npm run dev
+npm run dev <br>
 nuxt start
 
-Open http://localhost:3000
+Open http://localhost:3000 <br>
 Demo: https://digitalcameroon.org/
 
 
