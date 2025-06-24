@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="container mt--100">
-                <div v-for="(project, index) in projectsData" :project="porject" :key="project.id"
+                <div v-for="(project, index) in projectsData" :project="project" :key="project.id"
                     class="row mt--120 mt_md--50 mt_sm--30" :class="{'row-reverse' : project.id % 2 === 0}">
                     <div class="col-lg-7">
                         <a href="javascript:void(0)" @click="openSite(project.siteUrl)" class="thumbnail rts-team__item">

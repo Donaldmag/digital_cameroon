@@ -1,7 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
-  css: [],
+  css: [
+    "~/assets/css/style.css",
+    "~/assets/css/plugins/animate.css",
+    "~/assets/css/plugins/fontawesome-6.css",
+    "~/assets/css/vendor/bootstrap.css",
+    "~/assets/css/vendor/metismenu.css",
+  ],
   devtools: { enabled: true },
   postcss: {
     plugins: {
@@ -35,39 +41,12 @@ export default defineNuxtConfig({
       ],
 
       link: [
-        { rel: "icon", type: "image/x-icon", href: "/fav.png" },
-
-        {
-          rel: "stylesheet",
-          type: "text/css",
-          href: "/css/plugins/fontawesome-6.css",
-        },
-        {
-          rel: "stylesheet",
-          type: "text/css",
-          href: "/css/plugins/swiper.min.css",
-        },
-        {
-          rel: "stylesheet",
-          type: "text/css",
-          href: "/css/vendor/metismenu.css",
-        },
-        {
-          rel: "stylesheet",
-          type: "text/css",
-          href: "/css/plugins/animate.min.css",
-        },
-        {
-          rel: "stylesheet",
-          type: "text/css",
-          href: "/css/vendor/bootstrap.min.css",
-        },
-        { rel: "stylesheet", type: "text/css", href: "/css/style.css" },
+        { rel: "icon", type: "image/x-icon", href: "/fav.png" }, 
       ],
 
       script: [
         { src: "/js/vendor/jquery.min.js", type: "text/javascript" },
-        // { src: '/js/plugins/bootstrap.min.js', type: 'text/javascript' },
+        { src: '/js/plugins/bootstrap.min.js', type: 'text/javascript' },
         { src: "/js/plugins/contact.form.js", type: "text/javascript" },
         { src: "/js/vendor/waypoint.js", type: "text/javascript" },
         { src: "/js/plugins/swiper.js", type: "text/javascript" },
