@@ -34,7 +34,7 @@ The site is built using Vue 3 and integrate GSAP to render outstanding animation
    
 2. Install Dependencies: <br>
   sudo apt update && sudo apt upgrade -y <br>
-  sudo apt install -y git nodejs npm nginx
+  sudo apt install -y git nodejs npm nginx <br>
 .
 .
 .
@@ -57,18 +57,19 @@ The site is built using Vue 3 and integrate GSAP to render outstanding animation
 └── package.json         # Dependencies & scripts  
 
 
-## Starting services
+## Starting services <br>
+npm run dev
 
 ## Run locally
 
-**Cloning project**
+**Cloning project** <br>
 git clone project_url
 
-**Installing dependencies**
+**Installing dependencies** <br>
 npm install <br>
 yarn install
 
-**Starting project**
+**Starting project** <br>
 npm run dev <br>
 nuxt start
 
