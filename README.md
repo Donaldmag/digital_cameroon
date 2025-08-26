@@ -14,7 +14,7 @@ The site is built using Vue 3 and integrate GSAP to render outstanding animation
 ## Technologies & Theme
 
   **Technologies:**
-  - Vue 3 / Nuxt 3 (Choose based on project) <br>
+  - Vue 3 / Nuxt 3 <br>
   - GSAP animation (scrolltiger, scrolltoplugin, splittext, smoothscroll, scrollmagic, tilt)  <br>
   
   **Theme:**
@@ -22,19 +22,19 @@ The site is built using Vue 3 and integrate GSAP to render outstanding animation
   Source: 
 
 ## Deployment & Dev Tools
-  - VPS (CONTABO)
-  - Nginx (for reverse proxy)
-  - PM2 (process manager for Node.js)
+  - VPS (CONTABO) <br>
+  - Nginx (for reverse proxy) <br>
+  - PM2 (process manager for Node.js) <br>
   - VS Code (development environment)
 
 ## Depoyment on VPS
 
-1. Connect to VPS via SSH:
-   ssh root@your_server_ip
+1. Connect to VPS via SSH: <br>
+   ssh root@your_server_ip 
    
-2. Install Dependencies:
-  sudo apt update && sudo apt upgrade -y
-  sudo apt install -y git nodejs npm nginx
+2. Install Dependencies: <br>
+  sudo apt update && sudo apt upgrade -y <br>
+  sudo apt install -y git nodejs npm nginx <br>
 .
 .
 .
@@ -57,22 +57,24 @@ The site is built using Vue 3 and integrate GSAP to render outstanding animation
 └── package.json         # Dependencies & scripts  
 
 
-## Starting services
+## Starting services <br>
+npm run dev
 
 ## Run locally
 
-**Cloning project**
+**Cloning project** <br>
 git clone project_url
 
-**Installing dependencies**
-npm install 
+**Installing dependencies** <br>
+npm install <br>
 yarn install
 
-**Starting project**
-npm run dev
+**Starting project** <br>
+npm run dev <br>
 nuxt start
 
-Open http://localhost:3000
+Open http://localhost:3000 <br>
+Demo: https://digitalcameroon.org/
 
 
 
