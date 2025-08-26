@@ -3,10 +3,10 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   css: [
     "~/assets/css/style.css",
-    "~/assets/css/plugins/animate.css",
-    "~/assets/css/plugins/fontawesome-6.css",
-    "~/assets/css/vendor/bootstrap.css",
-    "~/assets/css/vendor/metismenu.css",
+    // "~/assets/css/plugins/animate.css",
+    // "~/assets/css/plugins/fontawesome-6.css",
+    // "~/assets/css/vendor/bootstrap.css",
+    // "~/assets/css/vendor/metismenu.css",
   ],
   devtools: { enabled: true },
   postcss: {
